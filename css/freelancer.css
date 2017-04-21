@@ -40,21 +40,8 @@ hr.star-primary {
   margin: 25px auto 30px;
 }
 hr.star-light:after,
-hr.star-primary:after {
-  content: "\f005";
-  font-family: FontAwesome;
-  display: inline-block;
-  position: relative;
-  top: -0.8em;
-  font-size: 2em;
-  padding: 0 0.25em;
-}
 hr.star-light {
   border-color: white;
-}
-hr.star-light:after {
-  background-color: #18BC9C;
-  color: white;
 }
 hr.star-primary {
   border-color: #2C3E50;
@@ -71,10 +58,10 @@ header {
   /*background: #18BC9C;*/
   /*background: linear-gradient(90deg, #3c7397, white)*/
   background-color: ##3c7397; /* fallback color if gradients are not supported */
-  background-image: -webkit-linear-gradient(top, #3c7397, #3c7397 60%, white); /* For Chrome 25 and Safari 6, iOS 6.1, Android 4.3 */
-  background-image:    -moz-linear-gradient(top, #3c7397, white); /* For Firefox (3.6 to 15) */
-  background-image:      -o-linear-gradient(top, #3c7397, white); /* For old Opera (11.1 to 12.0) */
-  background-image:         linear-gradient(to bottom, #3c7397, #3c7397 60%, white); /* Standard syntax; must be last */
+  background-image: -webkit-linear-gradient(top, #3c7397, #3c7397 80%, #3c7397 60%, white); /* For Chrome 25 and Safari 6, iOS 6.1, Android 4.3 */
+  background-image:    -moz-linear-gradient(top, #3c7397, #3c7397 80%, white); /* For Firefox (3.6 to 15) */
+  background-image:      -o-linear-gradient(top, #3c7397, #3c7397 80%, white); /* For old Opera (11.1 to 12.0) */
+  background-image:         linear-gradient(to bottom, #3c7397, #3c7397 80%, white); /* Standard syntax; must be last */
   color: white;
 }
 header .container {
@@ -187,8 +174,8 @@ section h2 {
   font-size: 3em;
 }
 section.success {
-  background: #18BC9C;
-  color: white;
+  text-align: center;
+  background: white;
 }
 @media (max-width: 767px) {
   section {
